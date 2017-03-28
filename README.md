@@ -46,7 +46,7 @@ ls -lah | same as above, but include directories whose name begins with a dot (.
 ls -t | Sort by time modified (recently modified first) before sorting the operands by lexicographical order
 ls -Glp | List directory contents in long format, show a slash ('/') after directory names, and enable colorized output
 
-Command | Purpose
+**Command** | Purpose
 -----|---------
 ls -g | List directory contents in long format, exclude owner name
 ls -go | List directory contents in long format, exclude owner name and group name
