@@ -58,10 +58,10 @@ ls -l dirName | List contents of the directory, dirName, in long format
 
 **xargs** is a command that takes output of a command and pass it as argument of another command. 
 
-(1) To get a count of number of lines in *.txt* files in the current directory:
+(1) To get a count of number of lines in *.txt* files in the current directory
 ls *.txt | xargs wc -l
 
-(2) To zip all *.txt.* files in the current directory:
+(2) To zip all *.txt.* files in the current directory
 find . -name '*.txt' | xargs zip -9 txt.zip
 
 
