@@ -46,3 +46,10 @@ ls -lah | same as above, but include directories whose name begins with a dot (.
 ls -t | Sort by time modified (recently modified first) before sorting the operands by lexicographical order
 ls -Glp | List directory contents in long format, show a slash ('/') after directory names, and enable colorized output
 
+Command | Purpose
+-----|---------
+ls -g | List directory contents in long format, exclude owner name
+ls -go | List directory contents in long format, exclude owner name and group name
+ls -goat | List directory contents in long format, including directories whose name begins with a dot (.), exclude owner name and group name, with newest files first
+ls -m | List files across the page seperated by commas
+ls -l dirName | List contents of the directory, dirName, in long format
