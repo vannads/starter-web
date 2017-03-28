@@ -54,6 +54,8 @@ ls -goat | List directory contents in long format, including directories whose n
 ls -m | List files across the page seperated by commas
 ls -l dirName | List contents of the directory, dirName, in long format
 
+>>
+
 **xargs** is a command that takes output of a command and pass it as argument of another command. 
 
 (1) To get a count of number of lines in *.txt* files in the current directory:
