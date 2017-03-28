@@ -53,3 +53,9 @@ ls -go | List directory contents in long format, exclude owner name and group na
 ls -goat | List directory contents in long format, including directories whose name begins with a dot (.), exclude owner name and group name, with newest files first
 ls -m | List files across the page seperated by commas
 ls -l dirName | List contents of the directory, dirName, in long format
+
+**xargs** is a command that takes output of a command and pass it as argument of another command. Here's one example which shows hoe to get a count of number of lines in *.txt* files in the current directory.
+
+**ls *.txt | xargs wc -l**
+
+
