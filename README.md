@@ -26,5 +26,5 @@ Renaming a file | mv test.txt test01.txt | Renames test.txt as test01.txt
 Listing hidden files | ls -a | List all, including hidden files
 Copying a file from one directory to another | cp temp01/test01.txt temp02/ | Copies file test01.txt from directory temp01 to directory temp02
 Copy multiple files into a directory | cp file1.txt file2.py file3.js target/ | Copies file1, file2, and file3 into directory target/
-Copy all files from one directory to another | cp -R source/ target/ | Copies all files from source/ to target/ 
+Recursively copy from one directory to another | cp -R source/ target/ | Recursively copies from source/ to target/ 
 
