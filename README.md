@@ -17,10 +17,10 @@ copying a file from one directory to another
 
 Task | Command | Notes/example result
 -----|---------|-------
-1. Show current working directory path | pwd | /Users/svannadil
-2. Creating a directory | mkdir temp00 | Creates temp00 under /Users/svannadil
-3. Deleting a directory | rmdir temp00 | Removes temp00 under /Users/svannadil
-4. Creating a file using touch command | touch test.txt | Creates a new empty file test.txt
+Show current working directory path | pwd | /Users/svannadil
+Creating a directory | mkdir temp00 | Creates temp00 under /Users/svannadil
+Deleting a directory | rmdir temp00 | Removes temp00 under /Users/svannadil
+Creating a file using touch command | touch test.txt | Creates a new empty file test.txt
 5. Delecting a file | rm test.txt | Removes test.txt
 6. Renaming a file | mv test.txt test01.txt | Renames test.txt as test01.txt
 7. Listing hidden files | ls -a | List all including hidden files
