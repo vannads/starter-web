@@ -28,3 +28,21 @@ Copying a file from one directory to another | cp temp01/test01.txt temp02/ | Co
 Copy multiple files into a directory | cp file1.txt file2.py file3.js target/ | Copies file1, file2, and file3 into directory target/
 Recursively copy from one directory to another | cp -R source/ target/ | Recursively copies from source/ to target/ 
 
+`ls`  
+`ls -a`  
+`ls -l`  
+`ls -lh`  
+`ls -lah`  
+`ls -t`  
+`ls -Glp`  
+
+Command | Purpose
+-----|---------
+ls | List directory contents
+ls -a | List directory contents, including directories whose name begins with a dot (.)
+ls -l | List directory contents in long format
+ls -lh | List directory contents in long format, use unit suffixes (B, K, M, G, T etc.) to reduce the number of digits to 3 or less
+ls -lah | same as above, but include directories whose name begins with a dot (.)
+ls -t | Sort by time modified (recently modified first) before sorting the operands by lexicographical order
+ls -Glp | List directory contents in long format, show a slash ('/') after directory names, and enable colorized output
+
